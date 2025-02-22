@@ -60,7 +60,7 @@ Feel free to fork the repository, submit issues, or create pull requests if you 
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under AIML Department.
 
 ## Author
 
