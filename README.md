@@ -61,7 +61,7 @@ Feel free to fork the repository, submit issues, or create pull requests if you 
 
 ## Author
 
-Created by AIML. For any inquiries, please reach out via GitHub.
+Created by Harsh Vardhan Gupta(AIML). For any inquiries, please reach out via GitHub.
 
 ---
 
