@@ -1,6 +1,6 @@
-# Multiple Disease Prediction System
+# Vital Care (Multiple Disease Prediction System)
 
-Welcome to the Multiple Disease Prediction System  ! This web application allows users to predict the likelihood of three major health conditions: Diabetes, Heart Disease, and Parkinson's Disease using machine learning models.
+Welcome to the Vital Care (Multiple Disease Prediction System)  ! This web application allows users to predict the likelihood of three major health conditions: Diabetes, Heart Disease, and Parkinson's Disease using machine learning models.
 
 ## Features
 
@@ -28,8 +28,8 @@ Welcome to the Multiple Disease Prediction System  ! This web application allows
 Clone this repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/yourusername/multiple-disease-prediction.git
-cd multiple-disease-prediction
+git clone https://github.com/yourusername/VitalCare.git
+cd VitalCare
 ```
 
 Install the required packages:
