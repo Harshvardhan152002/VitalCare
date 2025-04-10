@@ -210,7 +210,10 @@ if selected == 'Diabetes Disease':
                 if user_input is not None:
                     if 'diabetes_model' in globals():
                         diab_prediction = diabetes_model.predict([user_input])
-                        st.success('The person is diabetic' if diab_prediction[0] == 1 else 'The person is not diabetic')
+                        if diab_prediction[0] == 1:
+                            st.markdown("<h3 style='color: red;'>The person is diabetic</h3>", unsafe_allow_html=True)
+                        else:
+                            st.success('The person is not diabetic')
                     else:
                         st.error("Model not loaded. Please check the model initialization.")
                 else:
@@ -309,7 +312,10 @@ if selected == 'Heart Disease':
                 if user_input is not None:
                     if 'heart_disease_model' in globals():
                         heart_prediction = heart_disease_model.predict([user_input])
-                        st.success('The person has heart disease' if heart_prediction[0] == 1 else 'The person does not have heart disease')
+                        if heart_prediction[0] == 1:
+                            st.markdown("<h3 style='color: red;'>The person has heart disease</h3>", unsafe_allow_html=True)
+                        else:
+                            st.success('The person does not have heart disease')
                     else:
                         st.error("Model not loaded. Please check the model initialization.")
                 else:
@@ -397,7 +403,10 @@ if selected == 'Parkinsons Disease':
             if user_input is not None:
                 if 'parkinsons_model' in globals():
                     parkinsons_prediction = parkinsons_model.predict([user_input])
-                    st.success("The person has Parkinson's Disease" if parkinsons_prediction[0] == 1 else "The person does not have Parkinson's Disease")
+                    if parkinsons_prediction[0] == 1:
+                        st.markdown("<h3 style='color: red;'>The person has Parkinson's Disease</h3>", unsafe_allow_html=True)
+                    else:
+                        st.success("The person does not have Parkinson's Disease")
                 else:
                     st.error("Model not loaded. Please check the model initialization.")
             else:
