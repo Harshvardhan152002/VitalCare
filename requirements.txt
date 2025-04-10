@@ -1,18 +1,12 @@
-<<<<<<< HEAD
 scikit-learn
 matplotlib
 streamlit
 streamlit-option-menu
-=======
-<<<<<<< HEAD
 scikit-learn
 matplotlib
 streamlit
 streamlit-option-menu
-=======
 scikit-learn
 matplotlib
 streamlit
 streamlit-option-menu
->>>>>>> 41878bc (Final)
->>>>>>> dc76f95 (Final Changes)
